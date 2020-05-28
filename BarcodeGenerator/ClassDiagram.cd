@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AutoCont.Barcodes.Barcode">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAEAI0FAACACAAAQAgAAACAAAAAEAABgAACAAAg=</HashCode>
+      <FileName>Barcodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoCont.Barcodes.BarcodeLinear">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgBIAAAJCCAAgAKAAAQAEAAARAAAAAAAAgAIAAAAAA=</HashCode>
+      <FileName>Barcodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoCont.Barcodes.Code128">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIAAESEQAEAAAQAAAAAAACAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Barcodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoCont.Barcodes.Code39">
+    <Position X="5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAQAAAAAQAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Barcodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoCont.Barcodes.PDF417">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="AutoCont.Barcodes.PDF417.TwoDimensionalArray" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Barcodes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Class Name="AutoCont.Barcodes.PDF417.OneDimensionalArray" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Barcodes.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <InheritanceLine Type="AutoCont.Barcodes.Barcode2D" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8" Y="0.5" />
+        <Point X="8" Y="0.26" />
+        <Point X="10.25" Y="0.26" />
+        <Point X="10.25" Y="0.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAEAQIAEAEAAQAAAAQQAIQAAAAAAAAAAAAACAgAAAA=</HashCode>
+      <FileName>Barcodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoCont.Barcodes.QRCode">
+    <Position X="11.5" Y="2.5" Width="1.5" />
+    <InheritanceLine Type="AutoCont.Barcodes.Barcode2D" FixedToPoint="true">
+      <Path>
+        <Point X="7.594" Y="0.5" />
+        <Point X="7.594" Y="0.26" />
+        <Point X="13.16" Y="0.26" />
+        <Point X="13.16" Y="2.26" />
+        <Point X="12.312" Y="2.26" />
+        <Point X="12.312" Y="2.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAEAAIAAAEAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Barcodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoCont.Barcodes.Barcode2D">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQABAAAACAAAQAAAAAAAAAAAAAAgAAAAAAAE=</HashCode>
+      <FileName>Barcodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AutoCont.Barcodes.DataMatrix">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="AutoCont.Barcodes.Barcode2D" FixedToPoint="true">
+      <Path>
+        <Point X="8.406" Y="0.5" />
+        <Point X="8.406" Y="0.26" />
+        <Point X="12.312" Y="0.26" />
+        <Point X="12.312" Y="0.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Barcodes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="AutoCont.Barcodes.BarcodeType" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAABAAAAABAAAAAAAAgAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Barcodes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AutoCont.Barcodes.Code128Subtype" Collapsed="true">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoCEAAAA=</HashCode>
+      <FileName>Barcodes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
